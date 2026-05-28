@@ -1,4 +1,4 @@
-# AURA Clean Upload Package
+# AURA
 
 This folder contains the minimal files required to upload the selected AURA modules:
 
