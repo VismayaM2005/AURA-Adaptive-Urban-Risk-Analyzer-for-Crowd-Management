@@ -84,7 +84,7 @@ For the backend in a separate terminal:
 cd aura-admin/backend
 npm run dev
 ```
-```
+
 
 ### 4. Run the video analytics pipeline
 
