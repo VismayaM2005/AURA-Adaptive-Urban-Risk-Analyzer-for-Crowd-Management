@@ -1,0 +1,30 @@
+{
+  "zones_layout": [
+    {
+      "zone_id": "Z1",
+      "name": "Main Entrance",
+      "coordinates": [50, 50],
+      "neighbors": ["Z2"],
+      "nearest_exits": ["Exit1", "Exit2"]
+    },
+    {
+      "zone_id": "Z2",
+      "name": "Food Court",
+      "coordinates": [150, 50],
+      "neighbors": ["Z1"],
+      "nearest_exits": ["Exit1"]
+    }
+  ],
+  "exits_layout": [
+    {
+      "exit_id": "Exit1",
+      "name": "Exit Gate A",
+      "coordinates": [200, 50]
+    },
+    {
+      "exit_id": "Exit2",
+      "name": "Exit Gate B",
+      "coordinates": [0, 50]
+    }
+  ]
+}

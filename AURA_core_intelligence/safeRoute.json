@@ -1,0 +1,12 @@
+{
+  "safeRoute": {
+    "from": "Food Court",
+    "to": "Exit Gate A",
+    "path": [
+      "Food Court",
+      "Main Entrance",
+      "Exit Gate A"
+    ],
+    "riskLevel": "CRITICAL"
+  }
+}
