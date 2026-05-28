@@ -1,4 +1,4 @@
-﻿# AURA — Adaptive Urban Risk Analyzer for Crowd Management
+﻿# AURA: Adaptive Urban Risk Analyzer for Crowd Management
 
 This repository contains the AURA project, with the three main functional modules included:
 
