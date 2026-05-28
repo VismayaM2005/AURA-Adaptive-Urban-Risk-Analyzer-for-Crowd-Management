@@ -1,12 +1,11 @@
 # AURA — Adaptive Urban Risk Analyzer for Crowd Management
 
-This repository contains the cleaned upload for the AURA project, with the three main functional modules included:
+This repository contains the the AURA project, with the three main functional modules included:
 
 - `aura-admin/` — Admin dashboard UI built with React and Vite, plus the Express backend for data services and alerts
 - `AURA_core_intelligence/` — Crowd risk analytics engine, alert generation, and safe-route analysis logic
 - `AURA_Video_Module/` — Video-based crowd sensing and metrics extraction pipeline using OpenCV and analytics scripts
 
-> This upload excludes sensitive or generated content such as local environment files, database files, large model assets, and runtime outputs.
 
 ## Project overview
 
@@ -54,22 +53,6 @@ This module contains the video analytics pipeline that extracts crowd metrics fr
 - `scripts/send_metrics.py` — optional backend delivery of metrics
 - `zones_config.json` — zone definitions used by the video analytics pipeline
 
-## What is included
-
-- Clean source files for the admin UI, backend, risk engine, and video analytics
-- Configuration and sample zone metadata
-- A concise root `.gitignore`
-- `requirements.txt` for Python dependencies
-
-## What is excluded
-
-- `node_modules/`
-- Python virtual environment folders (`venv/`)
-- local backend secrets (`aura-admin/backend/.env`)
-- local SQLite runtime database (`aura-admin/backend/aura.db`)
-- generated video outputs (`AURA_Video_Module/output/`, `AURA_Video_Module/outputs/`)
-- large model and video assets like `*.pt`
-
 ## Setup instructions
 
 ### 1. Install Node dependencies
@@ -112,21 +95,3 @@ From `AURA_Video_Module`:
 ```bash
 python scripts/run_pipeline.py --video path/to/video.mp4
 ````
-
-If the video file is not in `test_videos/`, pass the path with `--video`.
-
-## Notes
-
-- The pipeline expects `AURA_Video_Module/zones_config.json` to define zone layout and timing.
-- `scripts/send_metrics.py` can post metrics to a backend URL configured with `AURA_BACKEND_URL`.
-- This upload is intended for code review and reuse, not for production deployment without further validation.
-
-## Next steps
-
-- Add actual sample video assets and model weights only if allowed by repo policy
-- Replace the current placeholder analytics with live sensor or backend data
-- Add README screenshots or demo clips for the admin dashboard and analytics flow
-
----
-
-If you want, I can also add a short PR-ready summary and update the branch with this README change.
