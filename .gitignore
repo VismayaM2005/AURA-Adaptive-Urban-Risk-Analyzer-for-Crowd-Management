@@ -1,5 +1,3 @@
-﻿# Root ignore for clean upload package
-
 # Node
 node_modules/
 **/node_modules/
