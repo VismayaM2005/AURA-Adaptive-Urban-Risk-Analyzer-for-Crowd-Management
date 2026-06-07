@@ -1,5 +1,17 @@
 # AURA — Adaptive Urban Risk Analyzer for Crowd Management
 
+Real-time AI system for crowd safety monitoring and stampede prevention 
+at large public gatherings. Processes live video to compute zone-level 
+risk scores and dynamically recalculates safe evacuation routes every frame.
+
+## Key Technical Highlights
+- Real-time crowd analysis at ~25–30 FPS using optical flow + contour analytics
+- Custom risk metrics: Crowd Pressure Index (CPI), Risk Score (0–100), 
+  Exit Load Balance Score (ELBS)
+- Zone classification: Safe / Warning / Critical updated per frame
+- Dynamic evacuation routing prioritizing safety over shortest path
+- Admin dashboard with live heatmaps, alerts, and playback
+  
 This repository contains the the AURA project, with the three main functional modules included:
 
 - `aura-admin/` — Admin dashboard UI built with React and Vite, plus the Express backend for data services and alerts
