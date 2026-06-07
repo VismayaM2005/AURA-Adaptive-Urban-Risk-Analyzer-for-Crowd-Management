@@ -18,16 +18,6 @@ This repository contains the the AURA project, with the three main functional mo
 - `AURA_core_intelligence/` — Crowd risk analytics engine, alert generation, and safe-route analysis logic
 - `AURA_Video_Module/` — Video-based crowd sensing and metrics extraction pipeline using OpenCV and analytics scripts
 
-
-## Project overview
-
-AURA is designed to support adaptive crowd management in urban environments by combining:
-
-- real-time or recorded crowd video analysis
-- zone-level crowd density and movement metrics
-- risk scoring and event detection
-- admin dashboards for alert visualization, analytics, and recommended routes
-
 The project is built as a modular package that separates the video analytics pipeline, the core intelligence engine, and the web admin interface.
 
 ## Module breakdown
